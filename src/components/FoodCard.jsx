@@ -70,7 +70,7 @@ const ExpandMore = styled((props) => {
 
           {/* Dropdown for selecting option */}
           <select className="m-2 h-100 bg-danger rounded" >
-              {Array.from(Array(5), (e,i) => {
+              {Array.from(Array(5), (i) => {
                 return (
                   
                   <option key={i+1} value={i+1}>{i+1}</option>
