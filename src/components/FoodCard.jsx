@@ -34,7 +34,7 @@ const ExpandMore = styled((props) => {
     };
   
     return (
-      <Card sx={{ maxWidth: 350 }}>
+      <Card sx={{ maxWidth: 350 }} className="d-inline-block p-1 m-2">
         <CardHeader
           avatar={
             <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
@@ -52,7 +52,7 @@ const ExpandMore = styled((props) => {
         <CardMedia
           component="img"
           height="194"
-          image="/static/images/cards/paella.jpg"
+          image="../public/foods.jpg"
           alt="Paella dish"
         />
         <CardContent>

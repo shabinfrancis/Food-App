@@ -1,12 +1,18 @@
 import Navbar from "../components/Navbar"
 import FoodCard from "../components/FoodCard"
 import Footer from "../components/Footer"
-import Carousal from "../components/Carousal"
+import Carousel from "../components/Carousel"
 export default function Home() {
     return(
         <>
           <Navbar />
-          <Carousal />
+          <Carousel />
+          <FoodCard />
+          <FoodCard />
+          <FoodCard />
+          <FoodCard />
+          <FoodCard />
+          <FoodCard />
           <FoodCard />
           <FoodCard />
           <Footer />

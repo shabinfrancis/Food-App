@@ -67,6 +67,7 @@ button:focus-visible {
   }
 }
 
-#carousal{
-  height: 25%;
+#carousel {
+  max-height: 100px;
+  width: 100vw;
 }
